@@ -4,3 +4,21 @@
     box-sizing: border-box;
 }
 
+body {
+    background: linear-gradient(135deg, #0056a7, #165fa3, #477aaa);
+    font-family: cursive;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    height: 100vh;
+    color: #eee;
+    z-index: -1;
+    text-align: center;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
