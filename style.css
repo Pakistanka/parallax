@@ -5,11 +5,11 @@
 }
 
 body {
-    background: linear-gradient(135deg, #0056a7, #165fa3, #477aaa);
+    background-image: radial-gradient(circle, #36eee6, #00d4f7, #00b5ff, #0092ff, #3565ed);
     font-family: cursive;
 }
 
-header {
+.header {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,14 +22,14 @@ header {
     animation: fadeIn 1.5s ease-in-out;
 }
 
-section {
+.intro {
     display: flex;
     align-items: center;
     justify-content: center;
     z-index: 1;
     height: 100vh;
     font-size: 5rem;
-    background: #fcdb6d;
+    background-image: radial-gradient(circle, #c3ee61, #cde54e, #d7db3b, #e1d028, #ebc512);
     color: #0056a7;
 }
 
