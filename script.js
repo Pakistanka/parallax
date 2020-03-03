@@ -1,6 +1,6 @@
-let header = document.querySelector("header"),
+let header = document.querySelector(".header"),
     container = document.querySelector(".container"),
-    section = document.querySelector("section h3");
+    section = document.querySelector(".intro .intro-header");
 
 window.addEventListener("scroll", function() {
     const distance = window.scrollY;
